@@ -5,7 +5,7 @@
 
 # Appearance
 
-theme: custom
+theme: minimal
 day_night: false
 font: ''
 font_size: L
@@ -34,7 +34,7 @@ main_menu:
   enable: true
   align: l
   show_logo: true
-  show_language: false
+  show_language: true 
   show_day_night: true
   show_search: true
   highlight_active_link: true
@@ -47,19 +47,19 @@ address_format: en-us
 
 # Site features
 
-highlight: false
+highlight: true
 highlight_languages: []
-math: false
-diagram: false
+math: true
+diagram: true
 privacy_pack: false
 edit_page:
   repo_url: ''
   content_dir: ''
   repo_branch: main
   editable:
-    page: false
-    post: false
-    book: false
+    page: true  
+    post: true
+    book: true
 show_related:
   book: true
   page: false
@@ -112,7 +112,9 @@ marketing:
   baidu_site_verification: ''
   baidu_tongji: ''
 cms:
-  local_backend: false
+  local_backend: true
+  # branch: main
+  # publish_mode: editorial_workflow
 icon:
   pack:
     ai: false
