@@ -2,7 +2,7 @@
 widget: hero
 headless: true
 weight: 10
-title: Online Course Template
+title:  Thirty Five Minutes Lesssons
 hero_media: student.svg
 design:
   background:
@@ -24,6 +24,8 @@ advanced:
   css_class: fullscreen
 ---
 <br>
+
+
 
 Published with the [Wowchemy Website Builder](https://wowchemy.com/) for Hugo.
 

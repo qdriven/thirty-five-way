@@ -6,30 +6,29 @@
 # Appearance
 
 theme: minimal
-day_night: false
+day_night: true
 font: ''
 font_size: L
 
 # SEO
 
-site_type: Organization
+site_type: personal
 local_business_type: ''
-org_name: ''
-description: ''
-twitter: ''
+org_name: 'after35'
+description: 'after35'
+# twitter: ''
 
 # Contact (edit or remove options as required)
 
-email: test@example.org
+email: after35@163.com
 appointment_url: 'https://calendly.com'
 contact_links:
   - icon: comments
     icon_pack: fas
     name: Discuss on the forum
-    link: 'https://github.com/wowchemy/wowchemy-hugo-modules/discussions'
+    link: 'https://github.com/qdriven/dicussions'
 
 # Site header
-
 main_menu:
   enable: true
   align: l
@@ -46,15 +45,14 @@ time_format: '3:04 PM'
 address_format: en-us
 
 # Site features
-
 highlight: true
 highlight_languages: []
 math: true
 diagram: true
 privacy_pack: false
 edit_page:
-  repo_url: ''
-  content_dir: ''
+  repo_url: 'https://github.com/qdriven/thirty-five-way.git'
+  content_dir: 'content'
   repo_branch: main
   editable:
     page: true  
@@ -72,10 +70,10 @@ section_pager: false
 docs_section_pager: true
 sharing: true
 copyright_license:
-  enable: false
+  enable: true
   allow_derivatives: false
   share_alike: true
-  allow_commercial: false
+  allow_commercial: true
   notice: 'This work is licensed under {license}'
 abstract_length: 135
 plugins_js: []

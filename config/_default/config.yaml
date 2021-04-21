@@ -11,7 +11,7 @@ copyright: '2021 Thirty-Five-Way' # Footer text, e.g. '© {year} Me'
 ## LANGUAGE
 ############################
 
-defaultContentLanguage: en 
+defaultContentLanguage: zh 
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: true 
 removePathAccents: true

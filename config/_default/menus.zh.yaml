@@ -1,0 +1,39 @@
+# Navigation Links
+#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
+#     desired widget in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in.
+
+main:
+  - name: Home
+    url: '/'
+    weight: 10
+  - name: Courses
+    url: '/course'
+    weight: 20
+    identifier: courses
+  - name: Blockchain Testing
+    url: '/course/blockchain/'
+    weight: 10
+    parent: courses
+  - name: Java In Testing
+    url: '/course/java/'
+    weight: 10
+    parent: courses
+  - name: Python In Testing
+    url: '/course/Python/'
+    weight: 10
+    parent: courses
+  - name: Javascript In Testing
+    url: '/course/javascript/'
+    weight: 10
+    parent: courses
+  - name: Golang In Testing
+    url: '/course/golang/'
+    weight: 10
+    parent: courses 
+  - name: Blog
+    url: '/post'
+    weight: 30
+  - name: Contact
+    url: '/contact'
+    weight: 60
