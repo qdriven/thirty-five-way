@@ -1,0 +1,4 @@
+serverless:
+  - https://github.com/pantheon-systems
+ci-cd-tools:
+  - https://github.com/jenkins-x/jx
